@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const tail   = require('../tail');
+const tail = require('../tail');
 
 describe("#tail", () => {
 
@@ -15,7 +15,7 @@ describe("#tail", () => {
     assert.deepEqual(tail([5, 6, 7]), [6, 7]); 
   });
 
-  it("returns undefined for []", () => {
+  it("returns [] for []", () => {
     assert.deepEqual(tail([]), []); 
   });
 
