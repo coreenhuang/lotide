@@ -29,3 +29,5 @@ const eqArrays = function(arr1, arr2) {
   }
   return true;
 };
+
+module.exports = {compareArrayLengths, compareEachElement, eqArrays};
