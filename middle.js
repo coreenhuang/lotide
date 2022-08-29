@@ -43,4 +43,4 @@ const middle = function(anyArray) {
   return makeOutputArray(anyArray);
 };
 
-module.exports = {checkForSufficientElements, checkEvenOrOdd, makeOutputArray, middle};
+module.exports = middle;
