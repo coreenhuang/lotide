@@ -91,6 +91,8 @@ const abc = { a: "1", b: "2", c: "3" };
 assertEqual(eqObjects(ab, abc), false); 
 // => false
 
+// object examples below taken from MDN to test out
+
 const ex1 = {
   make: 'Ford',
   model: 'Mustang',
