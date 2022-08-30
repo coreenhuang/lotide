@@ -24,3 +24,5 @@ const countLetters = function(stringInput) {
 };
 
 countLetters('iiiiIIIILOVESUSHIiiiii');
+
+module.exports = countLetters;

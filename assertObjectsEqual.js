@@ -69,3 +69,5 @@ const ex2 = {
 };
 
 assertObjectsEqual(ex1, ex2); 
+
+module.exports = assertObjectsEqual;

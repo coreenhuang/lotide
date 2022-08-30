@@ -69,3 +69,5 @@ const testArray = ['jingle', 'bells', 'batman', 'smells']
 assertArraysEqual(map(testArray, word => word[0]), ['j', 'b', 'b', 's']);
 assertArraysEqual(map(testArray, word => word + word), ['jinglejingle', 'bellsbells', 'batmanbatman', 'smellssmells']);
 assertArraysEqual(map(testArray, word => word.length), [6, 5, 6, 6]);
+
+module.exports = map;
